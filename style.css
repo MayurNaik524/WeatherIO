@@ -1,0 +1,27 @@
+.back{
+    background-image: url(asset/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 480px) {
+    .back{
+        background-image: url(asset/mob-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    }
+    .foot{
+        background-color: rgba(224, 224, 240, 0.2);
+        background-color: rgba(117, 12, 16, 0.3);
+    }
+}
+@media (min-width: 480px) {
+    .foot{
+        position: fixed;
+        background-color: rgba(224, 224, 240, 0.2);
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
